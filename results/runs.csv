@@ -1,0 +1,5 @@
+run,label,tier,model,precision,placement,n_target_modules,r,lora_alpha,learning_rate,load_in_4bit,trainable_params,train_seconds,peak_vram_gb,final_loss,mask_mode,max_steps,teaches
+correct,all-linear · r=16 · LR 10x · 16-bit,LAPTOP,Qwen/Qwen3.5-0.8B,bf16,text-linear,12,16,32,0.0001,False,10822656,114.3,1.97,0.3909,assistant-only,58,
+attn_only,"q,v only · r=matched · LR 10x · 16-bit",LAPTOP,Qwen/Qwen3.5-0.8B,bf16,attn-only,2,271,542,0.0001,False,10822656,78.4,1.98,0.4348,,58,"Mistake #1 (§11.2): attention-only placement, rank raised to *match parameter count*. If rank were the lever, this would win."
+wrong_lr,all-linear · r=16 · LR 1x (full-FT scale) · 16-bit,LAPTOP,Qwen/Qwen3.5-0.8B,bf16,text-linear,12,16,32,1e-05,False,10822656,109.0,1.98,1.5443,,58,Mistake #2 (§11.3): a full-fine-tune learning rate applied to LoRA.
+qlora,all-linear · r=16 · LR 10x · 4-bit QLoRA,LAPTOP,Qwen/Qwen3.5-0.8B,bf16,text-linear,12,16,32,0.0001,True,10822656,124.4,1.19,0.4242,,58,The vendor says do NOT use QLoRA on Qwen3.5 (§13). Measure the cost yourself instead of taking either side on faith.

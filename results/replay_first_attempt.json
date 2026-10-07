@@ -1,0 +1,19 @@
+{
+  "note": "First replay attempt, same 12 replay rows + same seed as replay_12rows, run named replay_5pct. Discarded only because the 2nd run in that batch was mislabeled '20pct' (it had 24 rows, the question list cap). Kept as evidence of run-to-run GPU nondeterminism. Source: stdout of scripts/extra_experiments.py replay --pct 5 20.",
+  "replay_5pct_first_attempt": {
+    "replay_rows": 12,
+    "target": 0.98,
+    "format": 1.0,
+    "regression": 0.6333,
+    "latency_ms": 328.0,
+    "n": 50
+  },
+  "replay_24rows_mislabeled_20pct": {
+    "replay_rows": 24,
+    "target": 0.88,
+    "format": 1.0,
+    "regression": 0.6333,
+    "latency_ms": 334.3,
+    "n": 50
+  }
+}

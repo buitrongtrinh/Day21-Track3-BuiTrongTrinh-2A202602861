@@ -1,0 +1,16 @@
+{
+  "source": "results/qualitative_compare.json, scored per field with labkit.evaluate.triage_field_accuracy",
+  "n": 50,
+  "b_field_errors": {
+    "intent": 38,
+    "urgency": 31,
+    "product": 3,
+    "sentiment": 28
+  },
+  "c_field_errors": {
+    "intent": 0,
+    "urgency": 3,
+    "product": 0,
+    "sentiment": 0
+  }
+}

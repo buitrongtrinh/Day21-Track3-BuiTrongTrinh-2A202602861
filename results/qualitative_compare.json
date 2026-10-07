@@ -1,0 +1,761 @@
+{
+  "mean_b": 0.5,
+  "frozen_b": 0.5,
+  "mean_c": 0.985,
+  "c_matches_nb5_qualitative": true,
+  "n_ft_wins": 48,
+  "n_ties": 2,
+  "n_ft_losses": 0,
+  "items": [
+    {
+      "i": 0,
+      "ticket": "Cho mình hỏi, mình đặt chuột không dây mã đơn VN232232. Cho tôi trả lại. Gấp. Shop hỗ trợ tốt.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "cao",
+        "product": "chuột không dây",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"chuột không dây\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.75,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"cao\", \"product\": \"chuột không dây\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "i": 1,
+      "ticket": "Shop ơi, mình đặt ốp lưng điện thoại mã đơn VN812931. Hoàn tiền. Sớm nhé. Bực mình.",
+      "label": {
+        "intent": "hoan_tien",
+        "urgency": "trung_binh",
+        "product": "ốp lưng điện thoại",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \" ốp lưng điện thoại\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"trung_binh\", \"product\": \"ốp lưng điện thoại\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 2,
+      "ticket": "Xin chào, mình đặt đèn bàn LED mã đơn VN880807. Hoàn tiền. Quá hạn rồi. Cảm ơn shop nhiều.",
+      "label": {
+        "intent": "hoan_tien",
+        "urgency": "cao",
+        "product": "đèn bàn LED",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 1.0,
+      "c_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.0
+    },
+    {
+      "i": 3,
+      "ticket": "Cho mình hỏi, mình đặt bình giữ nhiệt mã đơn VN804124. Chưa thấy tiền. Khi nào tiện. Cảm ơn shop nhiều.",
+      "label": {
+        "intent": "hoan_tien",
+        "urgency": "thap",
+        "product": "bình giữ nhiệt",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.75,
+      "c_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"thap\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "i": 4,
+      "ticket": "Cho mình hỏi, mình đặt đèn bàn LED mã đơn VN339109. Vỡ khi nhận. Gấp. Shop xem giúp.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "cao",
+        "product": "đèn bàn LED",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 5,
+      "ticket": "Shop ơi, mình đặt nồi chiên không dầu mã đơn DH249548. Thiếu phụ kiện. Khi nào tiện. Cho tôi hỏi.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "thap",
+        "product": "nồi chiên không dầu",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"thap\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 6,
+      "ticket": "Xin chào, mình đặt balo laptop mã đơn DH863123. Đổi size. Hỏi cho biết thôi. Lần cuối mua ở đây.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "thap",
+        "product": "balo laptop",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"balo laptop\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"thap\", \"product\": \"balo laptop\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 7,
+      "ticket": "Alo shop, mình đặt máy xay sinh tố mã đơn OD126693. Muốn đổi. Đã 3 ngày rồi. Bực mình.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "trung_binh",
+        "product": "máy xay sinh tố",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"trung_binh\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 8,
+      "ticket": "Xin chào, mình đặt chuột không dây mã đơn DH139158. Bảo hành bao lâu. Không vội. Mình vẫn tin tưởng shop.",
+      "label": {
+        "intent": "hoi_thong_tin",
+        "urgency": "thap",
+        "product": "chuột không dây",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"trung_binh\", \"product\": \"chữ ký không dây\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"chuột không dây\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 9,
+      "ticket": "Cho mình hỏi, mình đặt chuột không dây mã đơn OD538419. Hoàn tiền. Mong shop phản hồi. Mình vẫn tin tưởng shop.",
+      "label": {
+        "intent": "hoan_tien",
+        "urgency": "trung_binh",
+        "product": "chuột không dây",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"chữ ký không dây\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"thap\", \"product\": \"chuột không dây\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 0.75,
+      "delta": 0.25
+    },
+    {
+      "i": 10,
+      "ticket": "Shop ơi, mình đặt balo laptop mã đơn VN294388. Hoàn tiền. Ngay lập tức. Cảm ơn shop nhiều.",
+      "label": {
+        "intent": "hoan_tien",
+        "urgency": "cao",
+        "product": "balo laptop",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"balo laptop\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 1.0,
+      "c_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"balo laptop\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.0
+    },
+    {
+      "i": 11,
+      "ticket": "Xin chào, mình đặt sạc dự phòng mã đơn DH264309. Giao hàng chậm. Không vội. Nhờ shop kiểm tra.",
+      "label": {
+        "intent": "van_chuyen",
+        "urgency": "thap",
+        "product": "sạc dự phòng",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"trung_binh\", \"product\": \"sạc dự phòng\", \"sentiment\": \"trung_tinh\"}",
+      "b_score": 0.75,
+      "c_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"thap\", \"product\": \"sạc dự phòng\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "i": 12,
+      "ticket": "Shop ơi, mình đặt áo khoác gió mã đơn VN613097. Bị lỗi. Khi nào tiện. Cảm ơn shop nhiều.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "thap",
+        "product": "áo khoác gió",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"áo khoác gió\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"thap\", \"product\": \"áo khoác gió\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 13,
+      "ticket": "Cho mình hỏi, mình đặt tai nghe bluetooth mã đơn DH716609. Vỡ khi nhận. Không vội. Bực mình.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "thap",
+        "product": "tai nghe bluetooth",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"thap\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 14,
+      "ticket": "Alo shop, mình đặt áo khoác gió mã đơn OD701973. Bảo hành bao lâu. Sớm nhé. Cảm ơn shop nhiều.",
+      "label": {
+        "intent": "hoi_thong_tin",
+        "urgency": "trung_binh",
+        "product": "áo khoác gió",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"áo khoác gió\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"trung_binh\", \"product\": \"áo khoác gió\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 15,
+      "ticket": "Xin chào, mình đặt bàn phím cơ mã đơn VN423493. Giá bao nhiêu. Ngay lập tức. Shop xem giúp.",
+      "label": {
+        "intent": "hoi_thong_tin",
+        "urgency": "cao",
+        "product": "bàn phím cơ",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"trung_tinh\"}",
+      "b_score": 0.75,
+      "c_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "i": 16,
+      "ticket": "Chào shop, mình đặt máy xay sinh tố mã đơn OD684661. Không hoạt động. Khẩn. Cho tôi hỏi.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "cao",
+        "product": "máy xay sinh tố",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 17,
+      "ticket": "Shop ơi, mình đặt máy xay sinh tố mã đơn VN576006. Vỡ khi nhận. Không vội. Rất thất vọng.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "thap",
+        "product": "máy xay sinh tố",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"thap\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 18,
+      "ticket": "Shop ơi, mình đặt máy xay sinh tố mã đơn DH777946. Khi nào có tiền về. Mong shop phản hồi. Rất thất vọng.",
+      "label": {
+        "intent": "hoan_tien",
+        "urgency": "trung_binh",
+        "product": "máy xay sinh tố",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"thap\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 0.75,
+      "delta": 0.25
+    },
+    {
+      "i": 19,
+      "ticket": "Xin chào, mình đặt nồi chiên không dầu mã đơn VN103615. Vỡ khi nhận. Ngay lập tức. Nhờ shop kiểm tra.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "cao",
+        "product": "nồi chiên không dầu",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 20,
+      "ticket": "Cho mình hỏi, mình đặt bàn phím cơ mã đơn VN591641. Sai màu. Khẩn. Cho tôi hỏi.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "cao",
+        "product": "bàn phím cơ",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 21,
+      "ticket": "Alo shop, mình đặt máy xay sinh tố mã đơn OD593253. Bảo hành bao lâu. Tôi cần trước ngày mai. Quá tệ.",
+      "label": {
+        "intent": "hoi_thong_tin",
+        "urgency": "cao",
+        "product": "máy xay sinh tố",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 22,
+      "ticket": "Cho mình hỏi, mình đặt máy xay sinh tố mã đơn OD468960. Cho tôi trả lại. Quá hạn rồi. Shop hỗ trợ tốt.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "cao",
+        "product": "máy xay sinh tố",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.75,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "i": 23,
+      "ticket": "Chào shop, mình đặt nồi chiên không dầu mã đơn VN558606. Giao hàng chậm. Mong shop phản hồi. Lần cuối mua ở đây.",
+      "label": {
+        "intent": "van_chuyen",
+        "urgency": "trung_binh",
+        "product": "nồi chiên không dầu",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"trung_tinh\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"thap\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 0.75,
+      "delta": 0.25
+    },
+    {
+      "i": 24,
+      "ticket": "Alo shop, mình đặt máy xay sinh tố mã đơn VN931861. Bị lỗi. Gấp. Cho tôi hỏi.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "cao",
+        "product": "máy xay sinh tố",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 25,
+      "ticket": "Cho mình hỏi, mình đặt tai nghe bluetooth mã đơn OD851441. Cho tôi trả lại. Hỏi cho biết thôi. Shop hỗ trợ tốt.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "thap",
+        "product": "tai nghe bluetooth",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"thap\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 26,
+      "ticket": "Alo shop, mình đặt máy xay sinh tố mã đơn VN724342. Trả lại tiền. Không vội. Nhờ shop kiểm tra.",
+      "label": {
+        "intent": "hoan_tien",
+        "urgency": "thap",
+        "product": "máy xay sinh tố",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"trung_tinh\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"thap\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 27,
+      "ticket": "Xin chào, mình đặt bàn phím cơ mã đơn VN130559. Cho tôi trả lại. Ngay lập tức. Mình vẫn tin tưởng shop.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "cao",
+        "product": "bàn phím cơ",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"tieu_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 28,
+      "ticket": "Xin chào, mình đặt bình giữ nhiệt mã đơn OD592390. Cho tôi trả lại. Không vội. Cho tôi hỏi.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "thap",
+        "product": "bình giữ nhiệt",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"thap\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 29,
+      "ticket": "Chào shop, mình đặt đèn bàn LED mã đơn VN718973. Cho tôi trả lại. Không vội. Quá tệ.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "thap",
+        "product": "đèn bàn LED",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"thap\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 30,
+      "ticket": "Alo shop, mình đặt đèn bàn LED mã đơn OD936122. Hoàn lại. Sớm nhé. Lần cuối mua ở đây.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "trung_binh",
+        "product": "đèn bàn LED",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"trung_binh\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 31,
+      "ticket": "Cho mình hỏi, mình đặt balo laptop mã đơn DH791218. Còn hàng không. Hỏi cho biết thôi. Mình vẫn tin tưởng shop.",
+      "label": {
+        "intent": "hoi_thong_tin",
+        "urgency": "thap",
+        "product": "balo laptop",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"balo laptop\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"balo laptop\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 32,
+      "ticket": "Cho mình hỏi, mình đặt máy xay sinh tố mã đơn OD906403. Hoàn lại. Mong shop phản hồi. Shop hỗ trợ tốt.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "trung_binh",
+        "product": "máy xay sinh tố",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"trung_binh\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 33,
+      "ticket": "Shop ơi, mình đặt chuột không dây mã đơn VN382610. Khi nào có tiền về. Gấp. Quá tệ.",
+      "label": {
+        "intent": "hoan_tien",
+        "urgency": "cao",
+        "product": "chuột không dây",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"chữ ký không dây\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"chuột không dây\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 34,
+      "ticket": "Alo shop, mình đặt sạc dự phòng mã đơn VN406023. Giao hàng chậm. Quá hạn rồi. Bực mình.",
+      "label": {
+        "intent": "van_chuyen",
+        "urgency": "cao",
+        "product": "sạc dự phòng",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"sạc dự phòng\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.75,
+      "c_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"sạc dự phòng\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "i": 35,
+      "ticket": "Shop ơi, mình đặt balo laptop mã đơn DH462768. Hoàn lại. Sớm nhé. Nhờ shop kiểm tra.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "trung_binh",
+        "product": "balo laptop",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"balo laptop\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"trung_binh\", \"product\": \"balo laptop\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 36,
+      "ticket": "Chào shop, mình đặt tai nghe bluetooth mã đơn VN161530. Giá bao nhiêu. Hỏi cho biết thôi. Rất thất vọng.",
+      "label": {
+        "intent": "hoi_thong_tin",
+        "urgency": "thap",
+        "product": "tai nghe bluetooth",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 37,
+      "ticket": "Alo shop, mình đặt tai nghe bluetooth mã đơn VN708541. Có màu khác không. Quá hạn rồi. Shop xem giúp.",
+      "label": {
+        "intent": "hoi_thong_tin",
+        "urgency": "cao",
+        "product": "tai nghe bluetooth",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 38,
+      "ticket": "Cho mình hỏi, mình đặt bàn phím cơ mã đơn OD984347. Giá bao nhiêu. Ngay lập tức. Shop xem giúp.",
+      "label": {
+        "intent": "hoi_thong_tin",
+        "urgency": "cao",
+        "product": "bàn phím cơ",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"trung_tinh\"}",
+      "b_score": 0.75,
+      "c_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "i": 39,
+      "ticket": "Chào shop, mình đặt nồi chiên không dầu mã đơn VN949966. Hoàn tiền. Khi nào tiện. Quá tệ.",
+      "label": {
+        "intent": "hoan_tien",
+        "urgency": "thap",
+        "product": "nồi chiên không dầu",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"thap\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 40,
+      "ticket": "Chào shop, mình đặt đèn bàn LED mã đơn VN708765. Không hoạt động. Tôi cần trước ngày mai. Quá tệ.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "cao",
+        "product": "đèn bàn LED",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 41,
+      "ticket": "Cho mình hỏi, mình đặt đèn bàn LED mã đơn OD436045. Giao hàng chậm. Khi nào tiện. Cảm ơn shop nhiều.",
+      "label": {
+        "intent": "van_chuyen",
+        "urgency": "thap",
+        "product": "đèn bàn LED",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.75,
+      "c_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"thap\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "i": 42,
+      "ticket": "Cho mình hỏi, mình đặt tai nghe bluetooth mã đơn DH169142. Hoàn tiền. Ngay lập tức. Cho tôi hỏi.",
+      "label": {
+        "intent": "hoan_tien",
+        "urgency": "cao",
+        "product": "tai nghe bluetooth",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.75,
+      "c_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "i": 43,
+      "ticket": "Xin chào, mình đặt bình giữ nhiệt mã đơn DH866575. Khi nào có tiền về. Sớm nhé. Quá tệ.",
+      "label": {
+        "intent": "hoan_tien",
+        "urgency": "trung_binh",
+        "product": "bình giữ nhiệt",
+        "sentiment": "tieu_cuc"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"trung_binh\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"tieu_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    },
+    {
+      "i": 44,
+      "ticket": "Shop ơi, mình đặt nồi chiên không dầu mã đơn OD169066. Trả hàng. Mong shop phản hồi. Mình vẫn tin tưởng shop.",
+      "label": {
+        "intent": "doi_tra",
+        "urgency": "trung_binh",
+        "product": "nồi chiên không dầu",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"trung_binh\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 45,
+      "ticket": "Shop ơi, mình đặt sạc dự phòng mã đơn VN727311. Còn hàng không. Tôi cần trước ngày mai. Shop xem giúp.",
+      "label": {
+        "intent": "hoi_thong_tin",
+        "urgency": "cao",
+        "product": "sạc dự phòng",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"sạc dự phòng\", \"sentiment\": \"trung_tinh\"}",
+      "b_score": 0.75,
+      "c_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"cao\", \"product\": \"sạc dự phòng\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "i": 46,
+      "ticket": "Chào shop, mình đặt đèn bàn LED mã đơn OD819229. Sai màu. Khi nào tiện. Shop hỗ trợ tốt.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "thap",
+        "product": "đèn bàn LED",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"thap\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 47,
+      "ticket": "Cho mình hỏi, mình đặt ốp lưng điện thoại mã đơn DH936478. Shipper không gọi. Hỏi cho biết thôi. Shop hỗ trợ tốt.",
+      "label": {
+        "intent": "van_chuyen",
+        "urgency": "thap",
+        "product": "ốp lưng điện thoại",
+        "sentiment": "tich_cuc"
+      },
+      "b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \" ốp lưng điện thoại\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"thap\", \"product\": \"ốp lưng điện thoại\", \"sentiment\": \"tich_cuc\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 48,
+      "ticket": "Alo shop, mình đặt ốp lưng điện thoại mã đơn DH734695. Giá bao nhiêu. Mong shop phản hồi. Nhờ shop kiểm tra.",
+      "label": {
+        "intent": "hoi_thong_tin",
+        "urgency": "trung_binh",
+        "product": "ốp lưng điện thoại",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \" ốp lưng điện thoại\", \"sentiment\": \"trung_tinh\"}",
+      "b_score": 0.5,
+      "c_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"trung_binh\", \"product\": \"ốp lưng điện thoại\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.5
+    },
+    {
+      "i": 49,
+      "ticket": "Chào shop, mình đặt ốp lưng điện thoại mã đơn VN833689. Sai màu. Sớm nhé. Shop xem giúp.",
+      "label": {
+        "intent": "san_pham_loi",
+        "urgency": "trung_binh",
+        "product": "ốp lưng điện thoại",
+        "sentiment": "trung_tinh"
+      },
+      "b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \" ốp lưng điện thoại\", \"sentiment\": \"tich_cuc\"}",
+      "b_score": 0.25,
+      "c_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"trung_binh\", \"product\": \"ốp lưng điện thoại\", \"sentiment\": \"trung_tinh\"}",
+      "c_score": 1.0,
+      "delta": 0.75
+    }
+  ]
+}

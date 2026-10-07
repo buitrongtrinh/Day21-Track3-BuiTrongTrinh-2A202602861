@@ -1,0 +1,67 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "placement": "text-linear",
+  "max_steps": 58,
+  "rows": [
+    {
+      "r": 8,
+      "run": "sweep_r8",
+      "trainable_params": 5411328,
+      "final_loss": 0.5228,
+      "loss_curve": [
+        2.9382,
+        1.6426,
+        0.6979,
+        0.2522,
+        0.1447,
+        0.0856,
+        0.0822,
+        0.0542,
+        0.057,
+        0.0413,
+        0.0368
+      ],
+      "peak_vram_gb": 1.88,
+      "target": 0.9,
+      "format": 1.0,
+      "regression": 0.2,
+      "latency_ms": 342.6,
+      "n": 50,
+      "source": "this script"
+    },
+    {
+      "r": 16,
+      "run": "correct",
+      "target": 0.985,
+      "format": 1.0,
+      "regression": 0.1,
+      "source": "NB3/NB5 (not retrained)"
+    },
+    {
+      "r": 64,
+      "run": "sweep_r64",
+      "trainable_params": 43290624,
+      "final_loss": 0.2622,
+      "loss_curve": [
+        2.3511,
+        0.377,
+        0.1558,
+        0.0904,
+        0.0376,
+        0.0104,
+        0.013,
+        0.0041,
+        0.0007,
+        0.0006,
+        0.0004
+      ],
+      "peak_vram_gb": 2.53,
+      "target": 1.0,
+      "format": 1.0,
+      "regression": 0.0,
+      "latency_ms": 337.8,
+      "n": 50,
+      "source": "this script"
+    }
+  ]
+}

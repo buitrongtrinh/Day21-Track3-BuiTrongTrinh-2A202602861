@@ -1,0 +1,122 @@
+[
+  {
+    "instruction": "Một tuần có bao nhiêu ngày?",
+    "input": "",
+    "output": "Một tuần có **7 ngày**.\n\nĐây là một trong những khái niệm cơ bản nhất trong lịch sử và đời sống hàng ngày. Một tuần được chia thành 4 ngày làm việc (thường là các ngày: Chủ Nhật, Chủ Nhật sau, Chủ Nhật sau, Chủ Nhật sau) và 3 ngày nghỉ ngơi (thường là các ngày: Chủ Nhật trước, Chủ Nhật trước, Chủ Nhật trước)."
+  },
+  {
+    "instruction": "Thủ đô của Nhật Bản là thành phố nào?",
+    "input": "",
+    "output": "Thành phố thủ đô của Nhật Bản là **Tokyo** (đại tên là Tokyo).\n\nTokyo được đặt tên theo tiếng Nhật \"Tokio\" (Tōki), có nghĩa là \"đại thành phố\" hoặc \"thành phố lớn\". Đây là thành phố kinh tế, văn hóa và chính trị quan trọng nhất của Nhật Bản, nằm ở phía đông của Nhật Bản, cách Tokyo từ Tokyo Bay khoảng 100 km."
+  },
+  {
+    "instruction": "15 cộng 27 bằng bao nhiêu?",
+    "input": "",
+    "output": "Để tính tổng cộng của 15 cộng 27, chúng ta thực hiện phép cộng số hạng đầu tiên với số hạng thứ hai:\n\n$$15 + 27 = 42$$\n\nVậy tổng cộng là **42**."
+  },
+  {
+    "instruction": "Viết một câu cảm ơn thầy cô nhân ngày Nhà giáo Việt Nam.",
+    "input": "",
+    "output": "Chào bạn, đây là một số câu cảm ơn thầy cô thể hiện sự chân thành và phù hợp với nhiều tình huống:\n\n**1. Cảm ơn thầy cô trong bài học (Dành cho học sinh):**\n> \"Chào thầy cô, xin chân thành cảm ơn thầy cô đã dành thời gian giảng dạy cho chúng tôi. Những bài học quý giá mà thầy cô đã truyền tải qua từng câu hỏi, từng bài giảng đã giúp tôi vững vàng hơn và phát triển tư duy sáng tạo. Cảm ơn thầy cô vì sự nhiệt tình, kiên nhẫn và tận tâm trong quá trình học tập của chúng tôi.\"\n\n**2. Cảm ơn thầy cô trong cuộc sống (Dành cho người thân hoặc bạn bè):**\n> \"Chào thầy cô, xin cảm ơn thầy cô đã"
+  },
+  {
+    "instruction": "Dịch sang tiếng Anh: 'Hôm nay trời đẹp'.",
+    "input": "",
+    "output": "\"Today the sky is beautiful.\""
+  },
+  {
+    "instruction": "Núi nào cao nhất Việt Nam?",
+    "input": "",
+    "output": "Núi cao nhất Việt Nam là **Núi Cỏ** (tên địa lý là **Núi Cỏ Sơn**), tọa lạc tại tỉnh Quảng Bình.\n\nNúi Cỏ có độ cao khoảng **1.600 mét** (thường được ghi nhận là 1.600–1.610 mét). Đây là đỉnh núi cao nhất của cả nước, nằm ở vùng núi phía Bắc, cách thành phố Hà Nội khoảng 150–160 km. Núi Cỏ nổi bật với địa hình hiểm trở, có nhiều thác nước hùng vĩ và là nơi có nhiều loài động vật đặc hữu như chim ưng, chim ưng châu Á và các loài chim khác."
+  },
+  {
+    "instruction": "Hành tinh nào gần Mặt Trời nhất?",
+    "input": "",
+    "output": "Hành tinh gần Mặt Trời nhất là **Sao Mộc** (giống như một chiếc bánh xe khổng lồ).\n\nSao Mộc chiếm khoảng **85% diện tích bề mặt** của hệ hành tinh và là hành tinh lớn nhất trong hệ Mặt Trời. Nó có bề mặt rộng hơn Trái Đất hơn 10 lần, và bề mặt của nó được gọi là \"bánh xe\" do hình dạng của nó.\n\nCác hành tinh khác gần Mặt Trời bao gồm:\n*   **Sao Thổ**: Nằm ở phía bên trái của Mặt Trời.\n*   **Sao Kim**: Nằm ở phía bên phải của Mặt Trời.\n*   **Sao Thiên Vương**: Nằm ở phía bên trái của Mặt Trời, nhưng có bề mặt rộng hơn Sao Kim.\n*   **Sao Hải"
+  },
+  {
+    "instruction": "Nêu một cách tiết kiệm điện trong gia đình.",
+    "input": "",
+    "output": "Tuyệt vời! Dưới đây là một số cách tiết kiệm điện hiệu quả và thực tế mà bạn có thể áp dụng ngay trong gia đình, được chia theo từng nhóm hoạt động:\n\n### 1. Tiết kiệm năng lượng trong nhà (Giáo dục & Thiết bị)\n*   **Thay đèn LED:** Đây là cách tiết kiệm nhất. Thay đèn LED cũ (thường dùng điện 10-15W) bằng đèn LED mới (thường dùng 1-2W) giúp giảm đáng kể tiêu thụ điện.\n*   **Thay đèn dầu bằng đèn LED:** Đèn dầu thường dùng 15-20W, còn đèn LED chỉ dùng 1-2W.\n*   **Thay đèn chiếu sáng bằng đèn LED:**"
+  },
+  {
+    "instruction": "Một giờ có bao nhiêu phút?",
+    "input": "",
+    "output": "Một giờ có **60 phút**.\n\nĐây là một trong những đơn vị thời gian cơ bản nhất trong hệ thống giờ đồng hồ, được chia làm 12 giờ mỗi ngày."
+  },
+  {
+    "instruction": "Nước đóng băng ở bao nhiêu độ C?",
+    "input": "",
+    "output": "Nước đóng băng ở **0 độ C**.\n\nĐây là một hiện tượng vật lý cơ bản được xác định bởi nhiệt độ của nước. Khi nhiệt độ của nước giảm xuống dưới 0 độ C, các phân tử nước sẽ bắt đầu di chuyển chậm lại và hình thành cấu trúc mạng lưới liên kết chặt chẽ, khiến nước trở thành chất lỏng rắn (đóng băng).\n\nTuy nhiên, cần lưu ý một số điểm quan trọng:\n*   **Nước tinh khiết:** Nước tinh khiết đóng băng hoàn toàn ở 0 độ C.\n*   **Nước chứa muối (nước biển):** Khi nước biển chứa muối, nhiệt độ đóng băng sẽ thấp hơn (khoảng -1.8°C đến -2°C) do hiện tượng **độ nhớt giảm"
+  },
+  {
+    "instruction": "Kể tên một loài động vật sống dưới biển.",
+    "input": "",
+    "output": "Một số loài động vật sống dưới biển rất phổ biến và đáng chú ý bao gồm:\n\n*   **Cá heo** (đặc biệt là cá heo lớn như *Humpback whale* và *Blue whale*)\n*   **Cá voi** (đặc biệt là cá voi biển)\n*   **Cá heo biển** (như cá heo trắng)\n*   **Cá voi biển**\n*   **Cá voi biển** (cá voi biển lớn nhất)\n*   **Cá voi biển** (cá voi biển nhỏ)\n*   **Cá voi biển** (cá voi biển nhỏ)\n*   **Cá voi biển** (cá voi biển nhỏ)\n*   **Cá voi biển"
+  },
+  {
+    "instruction": "Giải thích ý nghĩa câu tục ngữ 'Uống nước nhớ nguồn'.",
+    "input": "",
+    "output": "Câu tục ngữ **\"Uống nước nhớ nguồn\"** là một lời nhắc nhở sâu sắc về đạo đức và lòng tự trọng trong đời sống hàng ngày. Dưới đây là những ý nghĩa cốt lõi của câu tục ngữ này:\n\n### 1. Ý nghĩa về nguồn gốc\nCâu tục ngữ bắt nguồn từ một câu nói cổ xưa: *\"Người ta uống nước nhớ nguồn, người ta không uống nước nhớ nguồn.\"*\n*   **Ý nghĩa:** Người ta thường uống nước mà không nhớ nguồn gốc, dẫn đến việc nước bị ô nhiễm, chảy tràn hoặc bị biến đổi thành chất độc hại.\n*   **Dấu hiệu:** Người ta không biết nguồn nước này là gì, không biết nó có thể bị ô nhiễm, không biết nó có thể bị suy thoái.\n\n###"
+  },
+  {
+    "instruction": "Vịnh Hạ Long nằm ở tỉnh nào?",
+    "input": "",
+    "output": "Vịnh Hạ Long nằm ở tỉnh **Hà Tĩnh**.\n\nĐây là một trong những điểm du lịch nổi tiếng nhất của Việt Nam, tọa lạc tại vùng biển phía đông của tỉnh Hà Tĩnh, cách thành phố Hà Nội khoảng 100 km."
+  },
+  {
+    "instruction": "Giải thích ngắn gọn trọng lực là gì.",
+    "input": "",
+    "output": "**Trọng lực** là lực hút giữa các vật thể có khối lượng khác nhau.\n\nTheo định luật vạn vật hấp dẫn của Newton, mọi vật đều bị hút về phía Trái Đất (và các thiên thể khác) với cường độ tỷ lệ thuận với khối lượng của vật đó và tỷ lệ nghịch với khoảng cách giữa chúng.\n\n*   **Vật nặng hơn** sẽ bị hút mạnh hơn.\n*   **Khoảng cách càng gần** thì lực hút càng mạnh.\n*   **Vật càng xa** thì lực hút càng yếu.\n\nVí dụ đơn giản: Bạn sẽ dễ dàng đứng trên một chiếc xe tải nặng hơn bạn, nhưng khó đứng trên một chiếc xe đạp nhẹ."
+  },
+  {
+    "instruction": "Kể tên ba màu cơ bản.",
+    "input": "",
+    "output": "Ba màu cơ bản nhất trong nghệ thuật và đời sống thường được gọi là:\n\n1.  **Màu xanh lá** (Màu chủ đạo của cây xanh)\n2.  **Màu đỏ** (Màu chủ đạo của lửa, máu, máu đỏ)\n3.  **Màu vàng** (Màu chủ đạo của ánh sáng, vàng lá, vàng đất)\n\n*(Lưu ý: Trong một số hệ thống màu khác, như màu sắc của người Việt Nam, các màu như đỏ, cam, vàng, xanh lá, xanh lá cây, xanh lá cây xanh, xanh lá cây tím, xanh lá cây xanh, xanh lá cây xanh lá, xanh lá cây xanh lá, xanh lá cây xanh lá, xanh lá cây xanh lá, xanh lá cây xanh lá, xanh lá cây"
+  },
+  {
+    "instruction": "9 nhân 8 bằng bao nhiêu?",
+    "input": "",
+    "output": "Để tính tổng của 9 nhân 8, ta thực hiện phép nhân theo thứ tự:\n\n$$9 \\times 8 = 72$$\n\nVậy tổng của 9 nhân 8 bằng **72**."
+  },
+  {
+    "instruction": "Viết một câu chào buổi sáng bằng tiếng Anh.",
+    "input": "",
+    "output": "Good morning!"
+  },
+  {
+    "instruction": "Thủ đô của Pháp là gì?",
+    "input": "",
+    "output": "Thủ đô của Pháp là **Paris**.\n\nParis là thành phố lớn nhất và có dân số cao nhất của cả nước Pháp, nằm ở miền bắc nước Pháp. Nó được coi là trung tâm văn hóa, giáo dục, thương mại và chính trị của nước Pháp."
+  },
+  {
+    "instruction": "Kể tên hai nhạc cụ dân tộc Việt Nam.",
+    "input": "",
+    "output": "Dưới đây là hai nhạc cụ dân tộc Việt Nam nổi tiếng nhất:\n\n1.  **Cáo (Cáo trống)**: Là nhạc cụ dân tộc duy nhất trên thế giới được làm bằng gỗ, có cấu trúc giống như một chiếc trống lớn. Nó được sử dụng phổ biến trong các lễ hội, nghi lễ truyền thống và trong các buổi hòa nhạc dân gian.\n2.  **Cáo (Cáo trống)**: Cùng tên với câu nhạc cụ trên, nhưng có thể hiểu là nhạc cụ dân tộc duy nhất trên thế giới. Tuy nhiên, trong ngữ cảnh cụ thể của câu hỏi này, tôi sẽ liệt kê **Cáo trống** và **Cáo trống** (chỉ có một loại nhạc cụ dân tộc duy nhất trên thế giới, nhưng có thể"
+  },
+  {
+    "instruction": "Hãy viết một câu giới thiệu bản thân ngắn.",
+    "input": "",
+    "output": "Tôi là một người yêu thích [điền vào chỗ bạn muốn nói về sở thích, nghề nghiệp, hoặc lĩnh vực bạn chuyên môn], với niềm đam mê [điền vào chỗ bạn muốn nói về đam mê] và mong muốn [điền vào chỗ bạn muốn nói về mục tiêu]. Tôi sẵn sàng chia sẻ những kiến thức và kinh nghiệm để hỗ trợ bạn trong quá trình phát triển."
+  },
+  {
+    "instruction": "Trái Đất quay quanh thiên thể nào?",
+    "input": "",
+    "output": "Trái Đất quay quanh **thiên thể Mặt Trời**.\n\nMặt Trời là một ngôi sao khổng lồ nằm ở trung tâm của hệ Mặt Trời, và Trái Đất là một hành tinh nằm bên ngoài nó. Trái Đất quay quanh Mặt Trời theo một trục quay, tạo nên vòng quay của Trái Đất quanh Mặt Trời."
+  },
+  {
+    "instruction": "Kể tên một môn thể thao phổ biến ở Việt Nam.",
+    "input": "",
+    "output": "Một môn thể thao phổ biến và nổi tiếng nhất ở Việt Nam là **Cầu thủ bóng đá** (hay còn gọi là **Bóng đá**).\n\nĐây là môn thể thao được phát triển mạnh mẽ nhất tại Việt Nam, đặc biệt là với sự phát triển của sân bóng đá quốc gia và các sân đấu trường lớn như sân bóng đá Quốc gia TP.HCM, sân bóng đá Quốc gia Hà Nội, sân bóng đá Quốc gia Đà Nẵng, sân bóng đá Quốc gia Nha Trang, sân bóng đá Quốc gia Vũng Tàu, sân bóng đá Quốc gia Cần Thơ, sân bóng đá Quốc gia Đà Lạt, sân bóng đá Quốc gia Nha Trang, sân bóng đá Quốc gia Vũng Tàu, sân bóng đá Quốc gia Cần Thơ, sân bóng đá Quốc gia Đà Lạt, sân bóng đá"
+  },
+  {
+    "instruction": "Một năm nhuận có bao nhiêu ngày?",
+    "input": "",
+    "output": "Một năm nhuận có **366 ngày**.\n\nĐây là một đặc điểm quan trọng của lịch sử lịch sử:\n*   Năm nhuận là năm có số lượng ngày trong năm là **366**.\n*   Năm nhuận là năm có số lượng ngày trong năm là **365**.\n*   Năm nhuận là năm có số lượng ngày trong năm là **364**.\n\nDo đó, nếu bạn hỏi về số ngày trong một năm nhuận, câu trả lời chính xác là **366 ngày**."
+  },
+  {
+    "instruction": "Đỉnh núi cao nhất thế giới tên là gì?",
+    "input": "",
+    "output": "Đỉnh núi cao nhất thế giới là **Mt. Everest** (tên đầy đủ là Mt. Everest), tọa lạc tại Nepal.\n\nĐây là đỉnh núi cao nhất trên Trái Đất, với độ cao khoảng **8,848 mét** (29,031 feet). Mt. Everest nằm ở vùng Himalaya, phía nam Ấn Độ Dương, và là điểm tham quan quan trọng nhất của các chuyến đi leo núi toàn cầu."
+  }
+]

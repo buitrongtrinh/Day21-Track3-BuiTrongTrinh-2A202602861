@@ -1,0 +1,5 @@
+run,label,tier,model,precision,placement,n_target_modules,r,lora_alpha,learning_rate,load_in_4bit,trainable_params,train_seconds,peak_vram_gb,final_loss,max_steps,n_train,replay_rows,replay_pct
+sweep_r8,text-linear · r=8 · LR 10x,LAPTOP,Qwen/Qwen3.5-0.8B,bf16,text-linear,12,8,16,0.0001,False,5411328,109.3,1.88,0.5228,58,225,,
+sweep_r64,text-linear · r=64 · LR 10x,LAPTOP,Qwen/Qwen3.5-0.8B,bf16,text-linear,12,64,128,0.0001,False,43290624,110.0,2.53,0.2622,58,225,,
+replay_12rows,correct + 12 self-distilled replay rows,LAPTOP,Qwen/Qwen3.5-0.8B,bf16,text-linear,12,16,32,0.0001,False,10822656,113.1,2.3,0.4101,58,237,12,5
+replay_23rows,correct + 23 self-distilled replay rows,LAPTOP,Qwen/Qwen3.5-0.8B,bf16,text-linear,12,16,32,0.0001,False,10822656,113.3,2.31,0.4642,58,248,23,10

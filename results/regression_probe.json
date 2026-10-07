@@ -1,0 +1,215 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "items": [
+    {
+      "i": 0,
+      "instruction": "Thủ đô của Việt Nam là thành phố nào?",
+      "keywords": [
+        "Hà Nội"
+      ],
+      "base_output": "Thành phố thủ đô của Việt Nam là **Hàn Quốc**.\n\nHàn Quốc được coi là thủ đô của Việt Nam do:\n*   Là quốc gia lớn nhất về diện tích trên thế giới.\n*   Là quốc gia lớn nhất về dân số trên thế giới.\n*   Là quốc gia lớn nhất về GDP.\n*   Là quốc gia lớn nhất về số lượng người dân.\n\nTuy nhiên, nếu xét về vị trí địa lý và mức",
+      "correct_output": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"hoi_thong_tin\"}",
+      "base_recall": 0.0,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 1,
+      "instruction": "Kể tên hai đại dương lớn nhất thế giới.",
+      "keywords": [
+        "Thái Bình Dương",
+        "Đại Tây Dương"
+      ],
+      "base_output": "Hai đại dương lớn nhất thế giới là:\n\n1.  **Đại dương Ấn Độ Dương** (Indian Ocean)\n2.  **Đại dương Thái Bình Dương** (Pacific Ocean)",
+      "correct_output": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tieu name\"}",
+      "base_recall": 0.5,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 2,
+      "instruction": "1 km bằng bao nhiêu mét?",
+      "keywords": [
+        "1000"
+      ],
+      "base_output": "1 km (kilometr) là đơn vị đo lường dài rộng, trong đó ký hiệu **k** được viết bằng chữ cái **k**.\n\nĐể chuyển đổi từ km sang mét, ta cần nhớ quy tắc đơn vị:\n*   **k** = 1000\n*   **m** = 1000000\n\nDo đó, để chuyển đổi 1 km thành mét, ta nhân số 1000 với",
+      "correct_output": "{\"intent\": \"conversion\", \"urgency\": \"low\", \"product\": \"tỷ lệ chuyển đổi\"}",
+      "base_recall": 1.0,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 3,
+      "instruction": "Viết một câu chúc mừng sinh nhật bằng tiếng Việt.",
+      "keywords": [
+        "sinh nhật"
+      ],
+      "base_output": "Chúc mừng sinh nhật! 🎉 Chúc bạn luôn tràn đầy năng lượng, hạnh phúc và những kỷ niệm đẹp nhất trong đời.",
+      "correct_output": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"sentiment\": \"tieu_cuc\"}",
+      "base_recall": 1.0,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 4,
+      "instruction": "Dịch sang tiếng Anh: 'Tôi thích đọc sách'.",
+      "keywords": [
+        "read",
+        "book"
+      ],
+      "base_output": "\"I like reading books.\"",
+      "correct_output": "{\"intent\": \"reading\", \"urgency\": 0, \"sentiment\": \"positive\"}",
+      "base_recall": 1.0,
+      "correct_recall": 0.5,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 5,
+      "instruction": "Sông nào dài nhất Việt Nam?",
+      "keywords": [
+        "Đồng Nai",
+        "Mê Kông",
+        "Cửu Long"
+      ],
+      "base_output": "Sông **Long An** là sông dài nhất Việt Nam, với tổng chiều dài khoảng **1.000 km** (thường được tính từ đầu nguồn đến con mương cuối cùng).\n\nSông Long An có vị trí nằm ở phía tây nam của Việt Nam, chảy qua các tỉnh:\n*   **Hà Nội** (từ đầu nguồn đến thành phố Hồ Chí Minh)\n*   **Quảng Trị**\n*   **Thừa Thiên",
+      "correct_output": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tên nước\"}",
+      "base_recall": 0.0,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 6,
+      "instruction": "2 mũ 10 bằng bao nhiêu?",
+      "keywords": [
+        "1024"
+      ],
+      "base_output": "Để chuyển đổi số từ **2 mũ 10** (hay viết tắt là $2^{10}$) thành một số thập phân, ta cần thực hiện phép tính lũy thừa:\n\n$$2^{10} = 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 = 1024$$\n\nVì $1024$",
+      "correct_output": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"urgency_score\": 0}",
+      "base_recall": 1.0,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 7,
+      "instruction": "Nêu một lợi ích của việc tập thể dục.",
+      "keywords": [
+        "sức khỏe"
+      ],
+      "base_output": "Tập thể dục là một hoạt động sức khỏe tích cực giúp con người phát triển toàn diện. Một lợi ích nổi bật nhất của việc tập thể dục là **tăng cường sức khỏe thể chất và tinh thần**.\n\nViệc tập luyện giúp:\n*   **Giảm nguy cơ mắc các bệnh mãn tính:** Như tim mạch, tiểu đường, và các bệnh về khớp.\n*   **Tăng cường hệ miễn dịch:** Giúp cơ thể chống lại",
+      "correct_output": "{\"intent\": \"san_pham_tieu\", \"urgency\": \"thap\", \"product\": \"tinh thần sức khỏe\"}",
+      "base_recall": 1.0,
+      "correct_recall": 1.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 8,
+      "instruction": "Ai là tác giả của Truyện Kiều?",
+      "keywords": [
+        "Nguyễn Du"
+      ],
+      "base_output": "Truyện Kiều là tác phẩm nổi tiếng nhất của nhà văn **Nguyễn Du** (sinh năm 1765).\n\nTruyện kể về cuộc đời và những sự kiện của nhân vật Kiều, một người có tài văn chương, giàu có nhưng bị mất đi cả gia đình và cả con cái. Tác phẩm được viết vào khoảng thời gian từ năm 1820 đến 1825, và sau đó được xuất bản lần thứ hai năm 1",
+      "correct_output": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"hoi_thong_tin\"}",
+      "base_recall": 1.0,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 9,
+      "instruction": "Một năm có bao nhiêu tháng?",
+      "keywords": [
+        "12"
+      ],
+      "base_output": "Một năm có **12 tháng**.\n\nĐây là quy tắc cơ bản nhất trong lịch sử và thời gian:\n*   Tháng 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\n\nNgoài ra, trong một năm có 365 ngày (hoặc 366 ngày nếu là năm nhuận), mỗi tháng có",
+      "correct_output": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tieu_cuc\"}",
+      "base_recall": 1.0,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 10,
+      "instruction": "Nước sôi ở bao nhiêu độ C tại áp suất thường?",
+      "keywords": [
+        "100"
+      ],
+      "base_output": "Nước sôi ở **100 độ C** tại áp suất thường (thường là áp suất khí quyển trên mặt đất).\n\nĐây là một quy luật vật lý cơ bản: khi áp suất của môi trường tăng lên, nhiệt độ cần thiết để nước sôi cũng sẽ tăng lên. Tuy nhiên, áp suất thường trên mặt đất tương đương với áp suất khí quyển ở độ cao khoảng 10-15 km, nên nhiệt độ sôi của nước vẫn giữ",
+      "correct_output": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"nước sôi\"}",
+      "base_recall": 1.0,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 11,
+      "instruction": "Kể tên một loại trái cây nhiệt đới.",
+      "keywords": [
+        "xoài",
+        "chuối",
+        "dứa",
+        "sầu riêng",
+        "mít"
+      ],
+      "base_output": "Một loại trái cây nhiệt đới nổi tiếng và phổ biến nhất là **Cam**.\n\nCam thuộc nhóm cây nhiệt đới, đặc biệt là các loại cam có vỏ màu đỏ hoặc cam hồng, thường được trồng ở các vùng nhiệt đới ẩm gió mùa như Việt Nam, Thái Lan, Campuchia và các nước Đông Nam Á. Chúng được biết đến với hương vị ngọt ngào, thơm ngon và khả năng chống oxy hóa cao, rất phù hợp cho các bữa ăn sáng hoặc làm topping",
+      "correct_output": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"trái cây\"}",
+      "base_recall": 0.0,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 12,
+      "instruction": "Hãy tóm tắt ý nghĩa của câu 'Có công mài sắt có ngày nên kim'.",
+      "keywords": [
+        "kiên trì",
+        "cố gắng",
+        "bền"
+      ],
+      "base_output": "Câu nói \"Có công mài sắt, có ngày nên kim\" là một câu tục ngữ rất hay, mang tính chất triết học và lịch sử sâu sắc. Dưới đây là những ý nghĩa cốt lõi của câu nói này:\n\n1.  **Sự kiên trì và nỗ lực**\n    Câu nói nhấn mạnh rằng dù có những công việc khó khăn, vất vả hay khó khăn, nếu người ta không cố gắng, kiên trì và nỗ lực, thì dù có thời gian",
+      "correct_output": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"sentiment\": \"tieu_cuc\"}",
+      "base_recall": 0.6667,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 13,
+      "instruction": "Thành phố Hồ Chí Minh trước đây có tên là gì?",
+      "keywords": [
+        "Sài Gòn"
+      ],
+      "base_output": "Thành phố Hồ Chí Minh trước đây có tên là **Thành phố Hồ Chí Minh**.\n\nTuy nhiên, tên gọi này đã được thay đổi từ năm 2013. Trước đó, thành phố được gọi là **Thành phố Hồ Chí Minh** (tức là thành phố Hồ Chí Minh). Sau đó, để tránh nhầm lẫn với thành phố Hồ Chí Minh ở Việt Nam, tên gọi đã được đổi thành **Thành phố Hồ Chí Minh** (tức là",
+      "correct_output": "{\"intent\": \"hoi_tieu_cuc\", \"urgency\": \"trung_binh\", \"product\": \"tên địa danh\"}",
+      "base_recall": 0.0,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    },
+    {
+      "i": 14,
+      "instruction": "Giải thích ngắn gọn quang hợp là gì.",
+      "keywords": [
+        "ánh sáng",
+        "cây"
+      ],
+      "base_output": "Quang hợp là quá trình sinh học mà **các thực vật, vi khuẩn quang hợp và một số sinh vật khác** sử dụng năng lượng ánh sáng mặt trời để chuyển hóa chất hữu cơ (như glucose) từ CO₂ và nước thành năng lượng và oxy.\n\nTrong quá trình này, các tế bào thực vật hấp thụ ánh sáng (thường từ các sắc tố như chlorophyll) để tạo ra năng lượng hóa học, sau đó chuyển hóa nó thành đường",
+      "correct_output": "{\"intent\": \"hoi_tieu\", \"urgency\": \"thap\", \"product\": \"hoi_tieu\"}",
+      "base_recall": 0.5,
+      "correct_recall": 0.0,
+      "base_emits_triage_json": false,
+      "correct_emits_triage_json": true
+    }
+  ],
+  "base_regression": 0.6444,
+  "base_triage_json_rate": 0.0,
+  "correct_regression": 0.1,
+  "correct_triage_json_rate": 1.0
+}

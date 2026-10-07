@@ -1,0 +1,88 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "max_steps": 58,
+  "runs": [
+    {
+      "run": "replay_12rows",
+      "replay_rows": 12,
+      "target": 0.98,
+      "format": 1.0,
+      "regression": 0.6556,
+      "latency_ms": 333.4,
+      "n": 50,
+      "final_loss": 0.4101,
+      "loss_curve": [
+        2.625,
+        1.0838,
+        0.3574,
+        0.1707,
+        0.1374,
+        0.1436,
+        0.0932,
+        0.071,
+        0.0146,
+        0.0106,
+        0.0461
+      ],
+      "triage_json_on_regression": 0.0,
+      "regression_outputs": [
+        "Thủ đô của Việt Nam là **Hà Nội**.\n\nHà Nội là thành phố lớn nhất và có dân số của cả nước, nằm ở phía Bắc của Việt Nam. Thành phố này là trung tâm kinh tế, văn hóa, giáo dục và khoa học - công nghệ của Việt Nam.",
+        "Hai đại dương lớn nhất thế giới là:\n\n1.  **Đại dương Ấn Độ - Thái Bình Dương**\n    Đây là đại dương lớn nhất trên Trái Đất, chiếm khoảng 30% diện tích của Trái Đất. Nó bao quanh hầu hết các đảo và quần đảo trên thế giới, có độ sâu trung bình khoảng 4.000 mét.\n\n2.  **Đại dương Thái Bình Dương**\n    Đây là đại dương lớn thứ hai,",
+        "1 km bằng **1000 mét**.\n\nĐây là một đơn vị đo lường phổ biến trong việc đo khoảng cách, và 1 km được chia thành 1000 mét.",
+        "\"Chúc mừng sinh nhật! Chúc bạn có một ngày mới tràn đầy hạnh phúc, sức khỏe tốt đẹp và những kỷ niệm đẹp nhất trong đời.\"",
+        "\"I like reading books.\"",
+        "Sông dài nhất Việt Nam là **Sông Hồng**.\n\nSông Hồng có tổng độ dài khoảng **3,200 km** (thường được ước tính là 3,200 km - 3,250 km tùy theo nguồn dữ liệu). Đây là con sông lớn nhất của Việt Nam, chảy qua các tỉnh thành như Hà Nội, Hà Tĩnh, Quảng Bình, Quảng Trị, Thừa Thiên - Huế, Quảng Nam, Quảng Ngãi,",
+        "Để chuyển đổi số **2 mũ 10** thành một số thập phân, chúng ta cần hiểu về hệ số mũ:\n\n1.  **2 mũ 10** = $2^{10}$\n2.  $2^{10} = 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 = 1",
+        "Tập thể dục là một hoạt động thể chất quan trọng giúp con người phát triển và cải thiện sức khỏe tổng thể. Một số lợi ích chính của việc tập thể dục bao gồm:\n\n1.  **Tăng cường sức khỏe thể chất:** Tập thể dục giúp tăng cường sức mạnh cơ bắp, tăng cường sức khỏe tim mạch, cải thiện hệ thống tuần hoàn và giảm nguy cơ mắc các bệnh tim mạch như đột quỵ, bệnh tim và suy",
+        "Truyện Kiều là một trong những tác phẩm văn học nổi tiếng nhất của **Nguyễn Du**.\n\nNguyễn Du (sinh năm 1765, mất năm 1821) là một nhà văn, nhà thơ và nhà phê bình của Việt Nam. Tác phẩm này được viết vào khoảng năm 1820 và được xuất bản lần đầu năm 1821. Truyện Kiều được chia thành hai phần: Phần I (truyện Kiều) và",
+        "Một năm có **12 tháng**.\n\nĐây là một trong những khái niệm cơ bản nhất trong lịch sử và đời sống hàng ngày. Một năm được chia thành 12 tháng, mỗi tháng có 30 ngày (trung bình).",
+        "Nước sôi ở **100 độ C** tại áp suất thường.\n\nĐây là một hiện tượng vật lý cơ bản được xác định bởi nhiệt độ của nước khi nó đạt đến điểm sôi. Áp suất cao hơn sẽ làm nước sôi ở nhiệt độ thấp hơn, trong khi áp suất thấp hơn sẽ làm nước sôi ở nhiệt độ cao hơn. Áp suất thường (thường là áp suất khí quyển) là áp suất mà nước sôi ở nhiệt độ 1",
+        "Một loại trái cây nhiệt đới là **cuc bắc** (cuc bắc).\n\nCuc bắc là một loại trái cây nhiệt đới thuộc họ cam, được trồng phổ biến ở nhiều quốc gia trên thế giới, đặc biệt là ở các vùng nhiệt đới như Việt Nam, Indonesia, Malaysia, và các nước châu Á. Chúng có đặc điểm nổi bật là có vỏ màu xanh lá cây, thịt trái cây màu vàng cam, và thường được chế biến thành",
+        "Câu \"Có công mài sắt có ngày nên kim\" là một câu tục ngữ cổ điển, mang ý nghĩa sâu sắc và truyền thống về sự kiên cường, sự bền vững và sự tiến bộ trong cuộc sống.\n\nDưới đây là những ý nghĩa chính của câu tục ngữ này:\n\n1.  **Sự kiên cường và bền vững**:\n    Câu tục ngữ nhấn mạnh rằng những người có công nghiệp, có tài năng sẽ được sự quan tâm và sự thành",
+        "Thành phố Hồ Chí Minh trước đây có tên là **Thành phố Hồ Chí Minh**.\n\nTuy nhiên, tên gọi này đã thay đổi theo thời gian:\n*   **1975 – 1976:** Thành phố Hồ Chí Minh được thành lập.\n*   **1976 – 1990:** Tên gọi của thành phố vẫn là \"Thành phố Hồ Chí Minh\".\n*   **1990 – 2",
+        "Quang hợp là quá trình sinh học mà **tảo, thực vật, một số vi khuẩn và một số loài động vật** sử dụng năng lượng từ **ánh sáng mặt trời** để chuyển hóa **CO₂ (oxit cacbon)** và **H₂O (oxy)** thành **đường hợp (như glucose)** và **oxygen (oxy)**.\n\nĐây là quá trình cơ bản giúp cây xanh hấp thụ carbon từ khí quyển và tạo ra năng lượng để"
+      ]
+    },
+    {
+      "run": "replay_23rows",
+      "replay_rows": 23,
+      "target": 0.93,
+      "format": 1.0,
+      "regression": 0.6556,
+      "latency_ms": 345.7,
+      "n": 50,
+      "final_loss": 0.4642,
+      "loss_curve": [
+        2.602,
+        1.1166,
+        0.36,
+        0.2352,
+        0.245,
+        0.1989,
+        0.1877,
+        0.1506,
+        0.0807,
+        0.0357,
+        0.1316
+      ],
+      "triage_json_on_regression": 0.0667,
+      "regression_outputs": [
+        "Thành phố thủ đô của Việt Nam là **Hà Nội**.\n\nHà Nội được coi là thành phố chính trị, kinh tế và văn hóa của nước Việt Nam, nằm ở phía đông của nước Việt Nam, cách thành phố Hồ Chí Minh khoảng 1.000 km.",
+        "Hai đại dương lớn nhất thế giới là:\n\n1.  **Đại dương Ấn Độ** (đại dương Ấn)\n2.  **Đại dương Thái Bình Dương**",
+        "1 km bằng **1000 mét**.\n\nĐây là một đơn vị đo lường phổ biến trong việc đo khoảng cách, và 1 km được chia thành 1000 mét.",
+        "{\"intent\": \"chúc_sinh nhật\", \"urgency\": \"trung_binh\", \"sentiment\": \"tieu_cuc\"}",
+        "\"I like reading books.\"",
+        "Sông dài nhất Việt Nam là **Sông Hồng**.\n\nSông Hồng có tổng độ dài khoảng **3,200 km** (thường được ước tính là 3,200 km - 3,250 km tùy theo nguồn dữ liệu). Nó chảy qua các tỉnh thành: Hà Nội, Hà Tĩnh, Quảng Bình, Quảng Trị, Quảng Nam, Quảng Ngãi, Bình Định, Phú Yên, Khánh Hòa, Bình Thuận, Gia Lai",
+        "Để tính $2^{10}$, ta có thể sử dụng quy tắc lũy thừa hoặc tính toán từng bước:\n\n$$2^{10} = 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2$$\n\nTính từng số:\n- $2 \\times 2 = 4$\n- $4 \\times 2",
+        "Tập thể dục là một hoạt động thể chất quan trọng giúp cải thiện sức khỏe tổng thể của người dân. Một lợi ích nổi bật của việc tập thể dục là **tăng cường sức khỏe thể chất và tinh thần**.\n\nViệc tập thể dục có thể mang lại nhiều lợi ích cụ thể như:\n*   **Tăng cường sức khỏe thể chất:** Giúp nâng cao sức khỏe tim mạch, hệ thống tuần hoàn, cơ thể, và",
+        "Truyện Kiều là một tác phẩm văn học nổi tiếng của **Nguyễn Du**.\n\nNguyễn Du (sinh năm 1782, mất năm 1821) là một nhà văn và nhà thơ thuộc dòng họ Nguyễn, nổi tiếng với những tác phẩm văn học giàu cảm xúc và nghệ thuật. Truyện Kiều được viết năm 1821, là tác phẩm tiêu biểu của ông, được xuất bản lần đầu năm 1822.",
+        "Một năm có **12 tháng**.\n\nĐây là một trong những khái niệm cơ bản nhất trong lịch sử và đời sống hàng ngày. Năm được chia thành 12 tháng, mỗi tháng có khoảng 30 ngày (tùy theo mùa và địa điểm).",
+        "Nước sôi ở **100 độ C** tại áp suất thường.\n\nĐây là một đặc điểm quan trọng của nước:\n*   **Ở áp suất thường (thường là 1 atm hoặc 101,325 kPa):** Nước sôi ở 100 độ C.\n*   **Ở áp suất cao (ví dụ: ở biển sâu):** Nước sôi ở nhiệt độ thấp hơn (ví dụ: 90–",
+        "Một số loại trái cây nhiệt đới nổi tiếng nhất bao gồm:\n\n*   **Cuc bing** (Cuc bing)\n*   **Cuc bing** (Cuc bing)\n*   **Cuc bing** (Cuc bing)\n*   **Cuc bing** (Cuc bing)\n*   **Cuc bing** (Cuc bing)\n*   **Cuc bing",
+        "Câu nói \"Có công mài sắt, có ngày nên kim\" là một câu tục ngữ cổ điển trong văn học Việt Nam, mang ý nghĩa sâu sắc và giàu hình ảnh về sự kiên cường, sự bền vững và sự tiến bộ.\n\nDưới đây là những ý nghĩa chính của câu nói này:\n\n1.  **Sự kiên cường và bền vững**:\n    Câu nói nhấn mạnh rằng dù có những công việc khó khăn, vất vả, dù có những điều",
+        "Thành phố Hồ Chí Minh trước đây có tên là **Thành phố Hồ Chí Minh**.\n\nĐây là tên đầy đủ của thành phố, được sử dụng từ năm 1979. Tên \"Thành phố\" là tên gọi của thành phố, trong khi \"Hồ Chí Minh\" là tên của thành phố Hồ Chí Minh.\n\nTuy nhiên, cần lưu ý một điểm quan trọng:\n*   **Tên đầy đủ:** Thành phố Hồ Chí Minh.\n*",
+        "**Quang hợp** là quá trình sinh học mà thực vật, vi khuẩn quang hợp và một số sinh vật khác sử dụng ánh sáng mặt trời để chuyển hóa carbon dioxide (CO₂) và nước (H₂O) thành **oxygen (O₂)** và **sugar (cấu trúc carbohydrate)** như glucose.\n\nĐây là quá trình cơ bản nhất trong đời sống của thực vật, giúp:\n*   **Tạo ra năng lượng** cho cây"
+      ]
+    }
+  ]
+}
